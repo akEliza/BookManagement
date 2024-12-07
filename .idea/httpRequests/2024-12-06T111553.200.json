@@ -1,0 +1,13 @@
+{
+  "message": "数据查询成功",
+  "results": {
+    "author": "余华",
+    "book_name": "活着",
+    "book_number": "001",
+    "book_price": 39.9,
+    "book_publisher": "某某出版社",
+    "book_type": "小说",
+    "id": 1
+  },
+  "status": "success"
+}

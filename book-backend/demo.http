@@ -1,0 +1,36 @@
+POST http://127.0.0.1:5000/books
+Content-Type: application/json
+
+{
+    "author": "余华1",
+    "book_name": "活着1",
+    "book_number": "003",
+    "book_price": 39.9,
+    "book_publisher": "某某出版社",
+    "book_type": "小说"
+  }
+
+###
+GET http://127.0.0.1:5000/books/1
+Accept: application/json
+
+###
+
+###
+PUT http://127.0.0.1:5000/books/3
+Content-Type: application/json
+
+{
+    "author": "史铁生",
+    "book_name": "病隙随笔",
+    "book_number": "003",
+    "book_price": 50,
+    "book_publisher": "人民出版社",
+    "book_type": "散文"
+  }
+
+###
+
+DELETE http://127.0.0.1:5000/books/2
+Accept: application/json
+###

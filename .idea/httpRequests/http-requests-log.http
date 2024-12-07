@@ -1,0 +1,123 @@
+DELETE http://127.0.0.1:5000/books/2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-12-06T112437.200.json
+
+###
+
+PUT http://127.0.0.1:5000/books/3
+Content-Type: application/json
+Content-Length: 180
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "author": "史铁生",
+    "book_name": "病隙随笔",
+    "book_number": "003",
+    "book_price": 50,
+    "book_publisher": "人民出版社",
+    "book_type": "散文"
+  }
+
+<> 2024-12-06T112323.200.json
+
+###
+
+PUT http://127.0.0.1:5000/books/3
+Content-Type: application/json
+Content-Length: 180
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "author": "史铁生",
+    "book_name": "病隙随笔",
+    "book_number": "003",
+    "book_price": 50,
+    "book_publisher": "人民出版社",
+    "book_type": "散文"
+  }
+
+<> 2024-12-06T112223.200.json
+
+###
+
+POST http://127.0.0.1:5000/books
+Content-Type: application/json
+Content-Length: 175
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "author": "余华1",
+    "book_name": "活着1",
+    "book_number": "003",
+    "book_price": 39.9,
+    "book_publisher": "某某出版社",
+    "book_type": "小说"
+  }
+
+<> 2024-12-06T112012.200.json
+
+###
+
+POST http://127.0.0.1:5000/books
+Content-Type: application/json
+Content-Length: 176
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "author": "余华1",
+    "book_name": "活着1",
+    "book_number": "003",
+    "book_price": 39.9,
+    "book_publisher": "某某出版社",
+    "book_type": "小说"
+  },
+
+<> 2024-12-06T111945.400.html
+
+###
+
+POST http://127.0.0.1:5000/books
+Content-Type: application/json
+Content-Length: 250
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "message": "数据查询成功",
+  "results": {
+    "author": "余华1",
+    "book_name": "活着1",
+    "book_number": "003",
+    "book_price": 39.9,
+    "book_publisher": "某某出版社",
+    "book_type": "小说"
+  },
+  "status": "success"
+}
+
+<> 2024-12-06T111908.500.html
+
+###
+
+GET http://127.0.0.1:5000/books/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2024-12-06T111553.200.json
+
+###
+

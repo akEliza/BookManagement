@@ -1,6 +1,6 @@
 This is a full-stack program about book management.
 
-##backend
+Backend
 Language: python
 Editor: Pycharm
 --flask
@@ -8,7 +8,7 @@ Editor: Pycharm
 --flask-cors：Solve the problem of Cross-Origin Resource Sharing
 I designed different url accoring to RESTful API.
 
-##frontend
+Frontend
 Language: JavaScript, html
 Editor: WebStorm
 --vite(vue3)

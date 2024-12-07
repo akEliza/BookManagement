@@ -1,17 +1,17 @@
 This is a full-stack program about book management.
 
-Backend
-Language: python
-Editor: Pycharm
---flask
---flask-sqlalchemy: database
---flask-cors：Solve the problem of Cross-Origin Resource Sharing
-I designed different url accoring to RESTful API.
+**Backend** <br>
+Language: python <br>
+Editor: Pycharm <br>
+--flask <br>
+--flask-sqlalchemy: database <br>
+--flask-cors：Solve the problem of Cross-Origin Resource Sharing <br>
+I designed different url accoring to RESTful API. <br>
 
-Frontend
-Language: JavaScript, html
-Editor: WebStorm
---vite(vue3)
---element-plus: UI component
---axios
+**Frontend** <br>
+Language: JavaScript, html <br>
+Editor: WebStorm <br>
+--vite(vue3) <br>
+--element-plus: UI component <br>
+--axios <br>
 
